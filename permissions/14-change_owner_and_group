@@ -1,2 +1,2 @@
 #!/bin/bash
-find . type -d -exec chown vincent && chgroup staff {} +
+chown vincent:staff $(find . type -d)
